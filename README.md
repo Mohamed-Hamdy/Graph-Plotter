@@ -31,3 +31,6 @@ Graph Plotter is application that used to make graphs to polynomial functions
   | Empty Input |![wrong3](https://github.com/Mohamed-Hamdy/Graph-Plotter/blob/main/images/wrong%20case%202.png)| 
   | divide by zero |![wrong4](https://github.com/Mohamed-Hamdy/Graph-Plotter/blob/main/images/wring%20case%203.png)| 
  
+<h3>Project Team :</h3>
+Mohamed Hamdy - [@LinkedIn](https://www.linkedin.com/in/mohamed-hamdy-0155b2173/) - LinkedIn<br>
+Mohamed Yasser Helmy   - [@LinkedIn](https://www.linkedin.com/in/mohamed-helmy-929441174/) - LinkedIn<br>
