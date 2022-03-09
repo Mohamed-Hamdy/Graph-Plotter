@@ -21,6 +21,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.regex.Pattern;
 import javafx.scene.text.TextAlignment;
+import javax.swing.ImageIcon;
 
 public class FunctionsPlotter extends Application {
 
@@ -31,6 +32,7 @@ public class FunctionsPlotter extends Application {
         grid.setHgap(10);
         grid.setVgap(10);
         grid.setPadding(new Insets(25, 25, 25, 25));
+        ImageIcon image = new ImageIcon("chessQueens.png");
 
         Scene scene = new Scene(grid, 700, 675);
         stage.setScene(scene);
@@ -87,6 +89,12 @@ public class FunctionsPlotter extends Application {
                 } else {
                     min1 = Integer.parseInt(minBox.getText());
                     max1 = Integer.parseInt(maxBox.getText());
+                    if(min1 > max1){
+                        Alert errorAlert = new Alert(Alert.AlertType.ERROR);
+                    errorAlert.setHeaderText("Min is Greater than Max");
+                    errorAlert.setContentText("Enter A valid Range !");
+                    errorAlert.showAndWait();
+                    }
                     xAxis.setLabel("x-Axis");
                     yAxis.setLabel("y-Axis");
                     LineChart<Number, Number> lineChart = new LineChart<Number, Number>(xAxis, yAxis);

@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="FunctionsPlotter.jar" size="10226" download="eager" />
+    <jar href="FunctionsPlotter.jar" size="10353" download="eager" />
     <jar href="lib\javafx-swt.jar" size="37121" download="eager" />
     <jar href="lib\javafx.base.jar" size="745873" download="eager" />
     <jar href="lib\javafx.controls.jar" size="2545470" download="eager" />
